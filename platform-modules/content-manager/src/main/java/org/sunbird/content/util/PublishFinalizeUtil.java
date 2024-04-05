@@ -207,7 +207,9 @@ public class PublishFinalizeUtil extends BaseFinalizer{
 		String masterCategoryCacheData =  null;
 		List<Map<String, String>> masterCategory = null;
 		if(CATEGORY_CACHE_READ) 
-			masterCategoryCacheData =  RedisStoreUtil.get("masterCategories");
+			{
+			    masterCategoryCacheData =  RedisStoreUtil.get("masterCategories");
+			}
 		
         if (StringUtils.isNotBlank(masterCategoryCacheData)) 
             try {
