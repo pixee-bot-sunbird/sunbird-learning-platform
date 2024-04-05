@@ -16,6 +16,8 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<log4j.version>2.17.0</log4j.version>
+		<sonar.organization>pixee-bot-sunbird</sonar.organization>
+ 	        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<profiles>
